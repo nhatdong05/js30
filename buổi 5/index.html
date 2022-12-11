@@ -12,14 +12,25 @@
         let users = ['phước','ngọc','hân','long']
         localStorage.setItem('users', JSON.stringify(users))
 
-        let get_users = localStorage.setItem('users')
+
+        let get_users = JSON.parse (localStorage.setItem('users'))
         consloe.log(get_users)
         get_users.indexOf('phước')
         consloe.log(get_users)
         let index = get_users.indexOf('phước')
         console.log(index)
         get_users.splice(index,1,'hà')
-        
+        consloe.log(get_users)
+
+        localStorage.setItem('users', JSON.stringify(get_users))
+
+        let name_ha = get_users.indexOf('hà')
+        get_users.splice(name_ha,1)
+        localStorage.setItem('users', JSON.stringify(get_users))
+
+        localStorage.removeItem('users')
+
+
     </script>
     
 </body>
