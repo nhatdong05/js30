@@ -5,960 +5,203 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="home.css">
 </head>
-<body data-container="body" class="cms-about cms-about-us cms-page-view page-layout-1column wide header-is-sticky">
-	
-		    
-    <div data-role="bss-fbpixel-subscribe" style="display:none;">
-</div>
-<span class="bss-subscribe-email" style="display:none;"></span>
-<span class="bss-subscribe-id" style="display:none;"></span>
-
-<div data-role="bss-fbpixel-atc" style="display:none;">
-
-</div>
-
-<script type="text/javascript">
-window.guestWishlist = {
-addUrl:'https://elise.vn/guestwishlist/index/add/',
-isActive: false,
-currentUrl: 'https://elise.vn/about-us'// use for add to cart form wishlist sidebar
-};
-</script>
-
-
-<noscript>
-<div class="message global noscript">
-<div class="content">
-<p>
-    <strong>JavaScript dường như bị vô hiệu trong trình duyệt của bạn.</strong>
-    <span>Để có trải nghiệm tốt nhất trên trang web của chúng tôi, đảm bảo bật Javascript trong trình duyệt của bạn.</span>
-</p>
-</div>
-</div>
-</noscript>
-
-<script type="text/javascript">
-window.cookiesConfig = window.cookiesConfig || {};
-window.cookiesConfig.secure = true;
-</script>
-<script type="text/javascript">
-require.config({
-map: {
-'*': {
-wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
-}
-}
-});
-</script>
-
-<script type="text/javascript">
-var QUICKVIEW_BASE_URL = 'https://elise.vn/';
-</script>
-<main style="padding-top: 79px;"><div class="page-wrapper  menu_vertical_fixed lazy-loading-img" data-ratioimage="ratio-3"><div id="placeholder-header"></div><header class="header header5 is-sticky">
-
-
-
-<div class="middle-header-content">
-<div class="middle-content">
-<div class="container">
-<div class="header-left col-md-2 col-lg-4">
-<div class="action-menu-responsive">
-    <button class="action nav-toggle"><i class="fal fa-bars"></i></button>
-</div>
-    <a class="logo" href="https://elise.vn/" title="Elise - Exclusive Fashion">
-<img src="https://elise.vn/media/logo/default/logo_color.png" alt="Elise - Exclusive Fashion" width="167" height="28">
-</a>
-</div>
-
-<div class="header-center col-md-4 col-lg-4">
-
-
-
-
-<div class="search-form">
-<div class="form-search">
-<button class="search-close" onclick="if (!window.__cfRLUnblockHandlers) return false; showHideFormSearch()"><i class="fal fa-times"></i></button>
-<form class="form minisearch" id="search_mini_form" action="https://elise.vn/catalogsearch/result/" method="get">
-<span class="title-search">Tìm Kiếm</span>
-<input id="search" type="text" name="q" value="" class="input-text form-control" maxlength="128" role="combobox" aria-expanded="true" aria-haspopup="false" aria-autocomplete="both" autocomplete="off">
-
-<button type="submit" title="Tìm Kiếm" class="button" disabled="">
-<i class="fal fa-search"></i>
-</button>
-<div id="search_autocomplete" class="search-autocomplete" style="display: none;"></div>
-<div class="mgs-instant-search-dropdown" data-bind="scope: 'instant_search_form'">
-<!-- ko template: getTemplate() -->
-
-<div id="mgs-instant-autocomplete-wrapper" class="mgs-instant-autocomplete-wrapper scrollbar-inner" data-bind="visible: showPopup()" style="display: none;">
-
-<div data-bind="visible: anyResultCount()" style="display: none;">
-<!-- ko foreach: getRegion('steps') -->
-<!-- ko template: getTemplate() -->
-<!-- ko foreach: {data: elems, as: 'element'} -->
-<!-- ko if: hasTemplate() --><!-- ko template: getTemplate() --><div class="products products-list" data-bind="if: isVisible() &amp;&amp; result.product"></div><!-- /ko --><!-- /ko -->
-<!-- /ko -->
-<!-- /ko -->
-<!--/ko-->
-</div>
-
-<div class="no-result" data-bind="text: textNoResult, visible: !anyResultCount()">No Result</div>
-</div><!-- /ko -->
-</div>
-
-<script type="text/javascript">
-window.instantSearch = {"result":{"product":{"data":[],"size":0,"url":""},"category":{"data":[],"size":0,"url":""},"page":{"data":[],"size":0,"url":""},"blog":{"data":[],"size":0,"url":""}}};
-</script>		</form>
-</div>
-<div class="actions-search">
-<button class="action-search" onclick="if (!window.__cfRLUnblockHandlers) return false; showHideFormSearch()"><i class="fal fa-search"></i></button>
-</div>
-</div>
-
-<script type="text/javascript">
-function showHideFormSearch(){
-require([
-'jquery'
-], function(jQuery){
-(function($) {
-if($('.search-form').hasClass('not-full')){
-    $('html').toggleClass('search-not-full');
-}
-$('html').toggleClass('search-open');
-setTimeout(focusSearchField, 500);
-})(jQuery);
-});
-}
-
-function focusSearchField(){
-require([
-'jquery'
-], function(jQuery){
-(function($) {
-$('#search_mini_form input#search').focus();
-})(jQuery);
-});
-}
-</script>
-</div>
-
-<div class="header-right col-md-6 col-lg-4">
-<div class="table-icon-menu">
-                        <div style="display:none">
-<audio id="remoteAudio" playsinline="" autoplay="" style="width: 1px"></audio>
-<audio id="localAudio" autoplay="" muted="" style="width: 1px;"></audio>
-</div>
-<div class="header-phone" data-role="stringee-area">
-<a data-phone="0386998080" class="stringee-call-action" href="javascript:void(0)"><i class="fal fa-phone"></i><span>Gọi Ngay</span></a>
-<span id="stringee-call-status"></span>
-</div>
-
-    <div class="dropdown dropdown-toplinks header-account">
-        <div class="dropdown-toggle is-canvas"><span class="label"><i class="fal fa-user"></i>Tài Khoản</span></div>                    </div>
-    
-<div data-block="minicart" class="minicart-wrapper minicart-wrapper--dropdown">
-<a class="action showcart" href="https://elise.vn/checkout/cart/" data-bind="scope: 'minicart_content'">
-<span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
-<span class="counter-number"><!-- ko text: getCartParam('summary_count') --><!-- /ko --></span>
-<span class="counter-label">
-<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
-</span>
-</span>
-<span class="label">Giỏ hàng của tôi </span>
-</a>
-
-<script type="text/javascript">
-window.checkout = {"shoppingCartUrl":"https:\/\/elise.vn\/checkout\/cart\/","checkoutUrl":"https:\/\/elise.vn\/checkout\/","updateItemQtyUrl":"https:\/\/elise.vn\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/elise.vn\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/elise.vn\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"2","storeGroupId":"1","customerLoginUrl":"https:\/\/elise.vn\/customer\/account\/login\/referer\/aHR0cHM6Ly9lbGlzZS52bi9hYm91dC11cw%2C%2C\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/elise.vn\/captcha\/refresh\/","isRequired":false,"timestamp":1675593588}}};
-</script>
-
-<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" tabindex="-1" role="dialog" aria-describedby="ui-id-1" style="display: none;"><div class="block block-minicart empty ui-dialog-content ui-widget-content" data-role="dropdownDialog" style="top: 0px;" id="ui-id-1">
-<button id="close-minicart"><i class="fal fa-times"></i></button>
-<div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
-<h3 class="minicart-title uppercase">Giỏ hàng</h3>
-<!-- ko template: getTemplate() -->
-<div class="block-content">
-<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
-
-<!-- ko if: getCartParam('items') && getCartParam('items').length > 3 --><!-- /ko -->
-
-<!-- ko ifnot: getCartParam('summary_count') -->
-<strong class="subtitle empty" data-bind="visible: closeSidebar()">
-<!-- ko i18n: 'There is no item in this cart.' --><span>Không có mục nào trong giỏ hàng này.</span><!-- /ko -->
-</strong>
-<!-- ko if: getCartParam('cart_empty_message') --><!-- /ko -->
-<!-- /ko -->
-
-<!-- ko if: getCartParam('summary_count') --><!-- /ko -->
-
-<div id="minicart-widgets" class="minicart-widgets">
-<!-- ko foreach: getRegion('promotion') -->
-<!-- ko template: getTemplate() -->
-<!-- ko foreach: {data: elems, as: 'element'} --><!-- /ko -->
-<!-- /ko -->
-<!-- /ko -->
-</div>
-</div>
-<!-- ko foreach: getRegion('sign-in-popup') --><!-- /ko -->
-<!-- /ko -->
-</div>
-    </div></div></div>
-
-
-    <div class="header-wl" data-bind="scope: 'wishlist'"><a href="https://elise.vn/wishlist/"><i class="fal fa-heart"></i><span data-bind="text: wishlist().counter" class="counter qty count-wl">0</span> <span class="label">My Wishlist</span> </a></div>                </div>
-</div>
-</div>
-</div>
-</div>
-
-</header>
-<section class="header-wrapper-end">
-<div class="header-canvas-menu megamenu-content" style="padding-top: 92px;">
-<div class="close-menu-canvas"><i class="fal fa-times"></i></div>
-<div id="main-Menucontent" class="item-pane menu-list">
-<div class="menu-logo"><a href="https://elise.vn/"><img src="https://elise.vn/media/logo/default/logo_color.png" alt="menu logo"></a></div>			
-
-    <nav class="navigation" role="navigation">
-<ul id="mainMenu" class="nav nav-main nav-main-menu">
-                                <li class="  static-menu level0">
-        <a href="http://store.elise.vn/lookbook" class="level0"><span>BỘ SƯU TẬP</span></a>                    </li>
-                    <li class="  category-menu level0 dropdown">
-        <a href="http://store.elise.vn/thoi-trang-nu" class="level0 dropdown-toggle href-existed"><span data-hover="THỜI TRANG NỮ">THỜI TRANG NỮ</span> <span class="icon-next"><i class="fa fa-angle-down"></i></span></a><span class="toggle-menu"><a onclick="if (!window.__cfRLUnblockHandlers) return false; toggleEl(this,'mobile-menu-7-1')" href="javascript:void(0)" class=""><span class="fa fa-plus"></span></a></span><ul class="dropdown-menu" id="mobile-menu-7-1"><li><ul><li class="level1">
-<a href="https://elise.vn/thoi-trang-nu/dam.html">
-Đầm
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/thoi-trang-nu/ao.html">
-Áo
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/thoi-trang-nu/chan-vay.html">
-Chân Váy
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/thoi-trang-nu/quan.html">
-Quần
-</a>
-</li></ul></li></ul>                    </li>
-                    <li class="  category-menu level0 dropdown">
-        <a href="http://store.elise.vn/giay-tui.html" class="level0 dropdown-toggle href-existed"><span data-hover="PHỤ KIỆN">PHỤ KIỆN</span> <span class="icon-next"><i class="fa fa-angle-down"></i></span></a><span class="toggle-menu"><a onclick="if (!window.__cfRLUnblockHandlers) return false; toggleEl(this,'mobile-menu-22-1')" href="javascript:void(0)" class=""><span class="fa fa-plus"></span></a></span><ul class="dropdown-menu" id="mobile-menu-22-1"><li><ul><li class="level1">
-<a href="https://elise.vn/giay-tui/giay.html">
-Giày
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/giay-tui/tui.html">
-Túi
-</a>
-</li></ul></li></ul>                    </li>
-                    <li class="  category-menu level0 dropdown">
-        <a href="https://elise.vn/outlet" class="level0 dropdown-toggle href-existed"><span data-hover="SALE UP TO 60%">SALE UP TO 60%</span> <span class="icon-next"><i class="fa fa-angle-down"></i></span></a><span class="toggle-menu"><a onclick="if (!window.__cfRLUnblockHandlers) return false; toggleEl(this,'mobile-menu-18-1')" href="javascript:void(0)" class=""><span class="fa fa-plus"></span></a></span><ul class="dropdown-menu" id="mobile-menu-18-1"><li><ul><li class="level1">
-<a href="https://elise.vn/outlet/outlet-dam.html">
-Đầm
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/outlet/outlet-chan-vay.html">
-Chân Váy
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/outlet/outlet-ao.html">
-Áo
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/outlet/outlet-ao-vest.html">
-Áo Vest
-</a>
-</li><li class="level1">
-<a href="https://elise.vn/outlet/outlet-quan.html">
-Quần
-</a>
-</li></ul></li></ul>                    </li>
-                    <li class="  static-menu level0">
-        <a href="http://store.elise.vn/about-us" class="level0"><span>#Elise Story</span></a>                    </li>
-                    <li class="  static-menu level0">
-        <a href="https://elise.vn/member/" class="level0"><span>Thẻ thành viên</span></a>                    </li>
-                    <li class="  static-menu level0">
-        <a href="https://elise.vn/maplist/" class="level0"><span>HỆ THỐNG CỬA HÀNG</span></a>                    </li>
-                    </ul>
-</nav>
-<div class="information-list"><span class="information">+ Thông tin</span>
-<ul class="list-menu-subinfo list-style-type">
-<li class="item"><a href="/newsletter/manage">Đăng ký nhận tin</a></li>
-<li class="item"><a href="/blog/category/tin-tuc">Elise Fashion &amp; Lifestyle</a></li>
-<li class="item"><a href="/recruitment">Tuyển dụng</a></li>
-<li class="item"><a href="/help">Trợ giúp</a></li>
-<li class="item"><a href="/about-us">Giới thiệu</a></li>
-</ul>
-</div>        </div>
-</div>
-<div class="canvas canvas-customer-login">
-<div class="close"><i class="fal fa-times"></i></div>
-<div class="canvas-content-wrapper">
-<div class="title uppercase"><span>Đăng nhập</span></div>
-<div class="create-account">
-<span>Bạn chưa có tài khoản?</span><a href="https://elise.vn/customer/account/create/" class="underline">Tạo tài khoản</a>        </div>
-<div class="canvas-message-container" data-bind="scope: 'canvas-messages'">
-<!-- ko template: getTemplate() -->
-<div data-role="checkout-messages" class="messages" data-bind="visible: isVisible(), click: removeAll">
-<!-- ko foreach: messageContainer.getErrorMessages() --><!--/ko-->
-<!-- ko foreach: messageContainer.getSuccessMessages() --><!--/ko-->
-</div>
-<!-- /ko -->
-</div>
-<form class="form form-login myaccount-form-login" action="https://elise.vn/customer/account/loginPost/" method="post" id="login-form" novalidate="novalidate">
-<input name="form_key" type="hidden" value="rj6bAfMxIzRUcHen">            <fieldset class="fieldset login" data-hasrequired="* Đây là trường bắt buộc.">
-<div class="field-control email required">
-    <input name="username" placeholder="Địa chỉ email hoặc số điện thoại của bạn" value="" autocomplete="off" id="email" type="text" class="input-text" title="Email" data-validate="{required:true, 'validate-email-telephone':true}">
-</div>
-<div class="field-control password required">
-    <input name="password" placeholder="Mật khẩu" type="password" autocomplete="off" class="input-text" id="pass" title="Mật khẩu" data-validate="{required:true}">
-</div>
-<div class="action remind">
-    <a href="https://elise.vn/customer/account/forgotpassword/" class="underline">Quên mật khẩu?</a>                </div>
-                    <div class="field choice mgs-gdpr-checkbox">
-<input name="login[accept_gdpr]" value="1" id="accept_gdpr" class="checkbox" type="checkbox" data-validate="{required:true}">
-<label for="accept_gdpr" class="label"><span>Tôi đồng ý Điều kiện - Điều khoản &amp; Chính sách bảo mật của Elise.</span></label>
-</div>
-<div class="actions-toolbar">
-    <button type="submit" class="action btn-login uppercase" name="send" id="send2">
-        <span>Đăng nhập</span></button>
-</div>
-</fieldset>
-</form>
-<div class="myaccount-socials-login">
-<div class="btn-login-social login-facebook uppercase">
-<a href="#"><i class="fab fa-facebook-f"></i><span>Đăng nhập bằng facebook</span></a>
-</div>
-<script type="text/javascript">
-require(['jquery', 'magenestSocialLogin'],
-function ($, sociallogin) {
-    $(document).ready(function () {
-        $('.btn-login-social.login-facebook').bind('click', function () {
-            var url = 'https://graph.facebook.com/oauth/authorize?client_id=2533748520214105&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Ffacebook%2Fconnect&scope=public_profile%2Cemail';
-            if (url.length) {
-                sociallogin.display(url, 'Facebook', 600, 600);
-            }
-        });
-    })
-})
-
-</script>
-<div class="btn-login-social login-google uppercase">
-<a href="#"><i class="fab fa-google-plus-g"></i><span>Đăng nhập bằng google</span></a>
-</div>
-<script type="text/javascript">
-require(['jquery', 'magenestSocialLogin'],
-function ($, sociallogin) {
-    $(document).ready(function () {
-        $('.btn-login-social.login-google').bind('click', function () {
-            var url = 'https://accounts.google.com/o/oauth2/auth?response_type=code&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Fgoogle%2Fconnect%2F&client_id=699638905084-ipgl7bp8hrlscrqro90githn4tqs8tsb.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=offline&approval_prompt=auto';
-            if (url.length) {
-                sociallogin.display(url, 'Google', 600, 600);
-            }
-        });
-    })
-})
-
-</script>
-</div>
-</div>
-</div>
-<script type="text/javascript">
-require([
-'jquery',
-'Magento_Customer/js/action/login',
-'mage/loader'], function ($, loginAction) {
-let loader = $('body').loader();
-loginAction.registerLoginCallback(function () {
-$('body').loader('hide');
-});
-$('.myaccount-form-login').on('submit', function (event) {
-var loginData = {},
-formElement = $(this),
-formDataArray = formElement.serializeArray();
-if (formElement.validation() &&
-formElement.validation('isValid')
-) {
-formDataArray.forEach(function (entry) {
-    loginData[entry.name] = entry.value;
-});
-
-$('body').loader('show');
-loginAction(loginData);
-}
-event.stopPropagation();
-return false;
-});
-});
-</script>
-
-
-<style>
-.message.error {
-display: block;
-background: #fae5e5;
-color: #e02b27;
-padding-left: 5px;
-position: relative;
-}
-</style>
-<div class="header-overlay"></div>
-</section>
-<section id="maincontent" class="page-main container"><!-- BLOCK amasty.promo.notification --><!-- /BLOCK amasty.promo.notification --><div data-bind="scope: 'messages'">
-<div data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages"></div>
-<div data-bind="foreach: { data: messages().messages, as: 'message' }" class="messages"></div>
-</div>
-
-<a id="contentarea" tabindex="-1"></a>
-<div class="page messages"><div data-placeholder="messages"></div></div><div class="row"><div class="column main col-lg-12 col-md-12 col-sm-12 col-xs-12"><input name="form_key" type="hidden" value="rj6bAfMxIzRUcHen"><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
-<script type="text/javascript">
-window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/elise.vn\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/elise.vn\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/elise.vn\/"};
-</script>
-<!-- ko template: getTemplate() -->
-
-
-<!-- /ko -->
-
-</div>
-
-
-
-
-
-<div id="modal_content" data-bind="scope:'modal_content'" style="display: none">
-<script type="text/javascript">
-window.modal_content = {"baseUrl":"https:\/\/elise.vn\/","isButtonEnabledCheckout":true,"isEnabledPopup":true,"isEnabledInCreateAccount":true,"TwitterUrl":"https:\/\/elise.vn\/sociallogin\/twitter\/request\/","isTwitterEnabled":true,"FacebookUrl":"https:\/\/graph.facebook.com\/oauth\/authorize?client_id=2533748520214105&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Ffacebook%2Fconnect&scope=public_profile%2Cemail","isFacebookEnabled":true,"GoogleUrl":"https:\/\/accounts.google.com\/o\/oauth2\/auth?response_type=code&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Fgoogle%2Fconnect%2F&client_id=699638905084-ipgl7bp8hrlscrqro90githn4tqs8tsb.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=offline&approval_prompt=auto","isGoogleEnabled":true,"AmazonUrl":"https:\/\/www.amazon.com\/ap\/oa?client_id=amzn1.application-oa2-client.cd3f6ad5d4fb4c7b8b9aa2d0f2af414c&scope=profile&response_type=code&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Famazon%2Fconnect","isAmazonEnabled":true,"InstagramUrl":"https:\/\/api.instagram.com\/oauth\/authorize?client_id=64181602656747debdfc2342d9665801&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Finstagram%2Fconnect%2F&scope=basic&response_type=code","isInstagramEnabled":true,"LineUrl":"https:\/\/access.line.me\/oauth2\/v2.1\/authorize?response_type=code&client_id=1602232851&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Fline%2Fconnect&state=7GlnYv&scope=profile","isLineEnabled":true,"PinterestUrl":"https:\/\/api.pinterest.com\/oauth?response_type=code&client_id=4984472831283705412&scope=read_public+write_public&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Fpinterest%2Fconnect%2F","isPinterestEnabled":true,"RedditUrl":"https:\/\/www.reddit.com\/api\/v1\/authorize?client_id=F9Xpd-OUzOS5_g&response_type=code&state=access&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Freddit%2Fconnect&duration=temporary&scope=identity","isRedditEnabled":true,"LinkedInUrl":"https:\/\/www.linkedin.com\/uas\/oauth2\/authorization?response_type=code&redirect_uri=https%3A%2F%2Felise.vn%2Fsociallogin%2Flinkedin%2Fconnect%2F&client_id=81nyrbn0y1bskn&scope=r_basicprofile+r_emailaddress&state=sociallogin","isLinkedInEnabled":true};
-</script>
-<!-- ko template: getTemplate() --><!--ko if: isEnabledPopup-->
-<div class="block-authentication" data-bind="afterRender: setModalElement, blockLoader: isLoading">
-<div class="block block-customer-login" data-bind="attr: {'data-label': $t('or')}" data-label="hoặc">
-<div class="block-title">
-<strong role="heading" aria-level="2" data-bind="i18n: 'Sign In using your account', attr: {id: prefixElementHtml + 'block-customer-login-heading'}" id="social-login-popup-block-customer-login-heading">Sign In using your account</strong>
-</div>
-<!-- ko foreach: getRegion('messages') --><!--/ko-->
-<!-- ko foreach: getRegion('before') --><!-- /ko -->
-<div class="block-content" aria-labelledby="block-customer-login-heading">
-<form class="form form-login" method="post" data-bind="event: {submit: login}, attr: {id: attr: {id: prefixElementHtml + 'login-form'}">
-
-<!-- ko if: isMessage() --><!-- /ko -->
-
-<div class="fieldset login" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}" data-hasrequired="* Đây là trường bắt buộc.">
-    <div class="field email required">
-        <label class="label" data-bind="attr: {id: prefixElementHtml + 'email'}" id="social-login-popup-email"><span data-bind="i18n: 'Email Address'">Địa chỉ Email</span></label>
-        <div class="control">
-            <input name="username" type="email" class="input-text" data-bind="attr: {autocomplete: autocomplete, id: prefixElementHtml + 'email'}" data-validate="{required:true, 'validate-email':true}" autocomplete="off" id="social-login-popup-email">
+<body>
+    <div class="new-arrival-actions">
+        <a class="button" href="https://elise.vn/thoi-trang-nu">Xem thêm</a>
+    </div>
+    <section class="banner-register-member">
+        <div class="new-arrival-actions">
+            <a class="button" href="https://elise.vn/thoi-trang-nu">Xem thêm</a>
         </div>
-    </div>
-    <div class="field password required">
-        <label data-bind="attr: {id: prefixElementHtml + 'pass'}" class="label" id="social-login-popup-pass"><span data-bind="i18n: 'Password'">Mật khẩu</span></label>
-        <div class="control">
-            <input name="password" type="password" class="input-text" id="social-login-popup-pass" data-bind="attr: {autocomplete: autocomplete, id: prefixElementHtml + 'pass'}" data-validate="{required:true}" autocomplete="off">
-        </div>
-    </div>
-    <!-- ko foreach: getRegion('additional-login-form-fields') --><!-- /ko -->
-</div>
-<div class="actions-toolbar">
-    <input name="context" type="hidden" value="checkout">
-    <div class="primary">
-        <br>
-        <button type="submit" class="action login primary" name="send" id="send5">
-            <span data-bind="i18n: 'Sign In'">Đăng nhập</span>
-        </button>
-    </div>
-    <div class="secondary">
-        <a class="action remind" data-bind="attr: {href: createNewAccount}" href="https://elise.vn/customer/account/create/">
-            <span data-bind="i18n: 'Create a New Account.'">Create a New Account.</span>
-        </a>
-        <br>
-        <a class="action remind" data-bind="attr: {href: forgotPasswordUrl}" href="https://elise.vn/customer/account/forgotpassword/">
-            <span data-bind="i18n: 'Forgot Your Password?'">Quên mật khẩu?</span>
-        </a>
-    </div>
-</div>
-<hr>
-</form>
-</div>
-</div>
-<div class="block block-social-login" data-bind="attr: {'data-label': $t('or')}" data-label="hoặc">
-<div class="block-title">
-<strong id="block-social-login-heading" role="heading" aria-level="2" data-bind="i18n: 'Sign In with your social account'">Sign In with your social account</strong>
-</div>
-<div class="block-social-login-content" style="max-width: 325px" aria-labelledby="block-social-account-heading">
-<!-- ko if: isTwitterEnabled -->
-<div class="modal-socialogin-popup modal-twitter" data-bind="click : getTwitterUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isFacebookEnabled -->
-<div class="modal-socialogin-popup modal-facebook" data-bind="click : getFacebookUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isGoogleEnabled -->
-<div class="modal-socialogin-popup modal-google" data-bind="click : getGoogleUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isAmazonEnabled -->
-<div class="modal-socialogin-popup modal-amazon" data-bind="click : getAmazonUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isLinkedInEnabled -->
-<div class="modal-socialogin-popup modal-linkedin" data-bind="click : getLinkedInUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isInstagramEnabled -->
-<div class="modal-socialogin-popup modal-instagram" data-bind="click : getInstagramUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isPinterestEnabled -->
-<div class="modal-socialogin-popup modal-pinterest" data-bind="click : getPinterestUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isRedditEnabled -->
-<div class="modal-socialogin-popup modal-reddit" data-bind="click : getRedditUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-<!-- ko if: isLineEnabled -->
-<div class="modal-socialogin-popup modal-line" data-bind="click : getLineUrl"></div>
-<div class="divider"></div>
-<!-- /ko -->
-
-</div>
-<hr>
-</div>
-</div>
-<!--/ko--><!-- /ko -->
-
-
-<script type="text/javascript">
-require([
-'mage/url',
-'Magento_Ui/js/block-loader'
-], function(url, blockLoader) {
-blockLoader("https://elise.vn/static/version1672704734/frontend/Magenest/elise/vi_VN/images/loader-1.gif");
-return url.setBaseUrl('https://elise.vn/');
-})
-</script>
-
-</div>
-<div class="introdution-wrapper">
-<div class="about-banner-main"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/runway.jpg" alt="Elise">
-<h2 class="about-title"><span class="mob-hide">We are Elise</span>&nbsp;<span class="desk-hide">Elise fashion</span></h2>
-</div>
-<div class="container">
-<h3 class="about-title" style="margin-bottom: 0;">FOR ELISE - REACH FURTHER</h3>
-<h3 class="about-title" style="margin-top: 0;">VƯƠN XA HƠN</h3>
-<p style="margin-bottom: 60px;">Tự hào khi được ra đời vào năm 2011 từ sự đam mê kinh doanh và thời trang của founder- Ms Lưu Nga, Elise đã có một thập niên kiên cường và rực rỡ. Elise của ngày hôm nay bước sang thập niên thứ hai với sứ mệnh đầy kiêu hãnh – Chinh phục thế giới. Một thập niên vươn lên tầm cao, bắt đầu từ các thành phố lớn Hong Kong, Tokyo, Seoul, Singapore, New York…</p>
-</div>
-<div class="container">
-<div class="w-50" style="margin-bottom: 60px;"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/bia.jpg" alt="Elise"></div>
-</div>
-<div class="container">
-<p>Từ một công ty khởi nghiệp với khát vọng đưa định vị thương hiệu thời trang mang đẳng cấp quốc tế đến gần hơn với khách hàng Việt Nam. Đến nay, với sự kiên định và bền vững, Elise đã gây dựng nên một đế chế thời trang tiên phong và không ngừng nâng cấp với định vị thương hiệu của một Công ty đa quốc gia.</p>
-<div class="w-50" style="margin-top: 60px;"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/HH_Thu_Th_o_v_BOD.jpg" alt="Elise"></div>
-</div>
-<div class="container">
-<div style="margin-top: 60px;">
-<div class="w-50" style="margin-bottom: 60px;"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/CEO_Tukuo.jpg" alt="Elise"></div>
-<p>Hiện nay, <strong>ELISE</strong> là thương hiệu thời trang hàng đầu Việt Nam với 121 cửa hàng trên 63 tỉnh thành trên toàn quốc, giữ vững vị thế dẫn đầu thị trường thời trang về quy mô và tốc độ phát triển. ELISE sở hữu và làm thỏa mãn hơn 2 triệu triệu khách hàng trung thành, hàng năm cho ra thị trường trên 1.500 mẫu thiết kế tiên phong, sáng tạo và độc đáo, luôn luôn đi đầu về xu hướng và phong cách hiện đại, cao cấp, sang trọng. Các sản phẩm của ELISE được sản xuất tại Việt Nam ở 3 nhà máy chính và 200 đối tác kinh doanh, tạo ra hơn 2.000 việc làm trực tiếp và hơn 1.000 việc làm gián tiếp. ELISE sở hữu hệ thống vận hành đồng bộ và phát triển đồng nhất từ ​​thiết kế, sản xuất, phân phối đến dịch vụ khách hàng tại Việt Nam.</p>
-</div>
-</div>
-<div class="about-banner-2columns">
-<div class="columns-left"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/HH_Thu_Th_o.jpg" alt="Elise"></div>
-<div class="columns-right"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/Ninh_d_ng_lan_ng_c.jpg" alt="Elise"></div>
-</div>
-<div class="container">
-<p>Thập kỷ vừa qua, tầm nhìn của Elise là giữ vững vị thế thương hiệu nội địa hàng đầu trong nước về các sản phẩm thời trang và phong cách sống. Sứ mệnh tối ưu hóa hành trình mua sắm của các quý cô Elise bằng cách mang tới ngày càng nhiều dòng sản phẩm cao cấp cùng các thiết kế hiện đại, thời thượng với giá cả phù hợp, đồng thời giúp khách hàng có những trải nghiệm toàn diện và được cá nhân hóa. Elise luôn luôn chăm sóc phái đẹp bằng niềm đam mê thời trang mãnh liệt như những ngày đầu thành lập.</p>
-</div>
-<div class="about-banner-2columns">
-<div class="columns-left"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/L_Thu_.jpg" alt="Elise"></div>
-<div class="columns-right"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/_ng_D_ng_Thanh_Thanh_Huy_n.jpg" alt="Elise"></div>
-</div>
-<div class="about-banner-2columns">
-<div class="columns-left"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/runway_h_ng_ly.jpg" alt="Elise"></div>
-<div class="columns-right"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/runway_ng_c_ch_u.jpg" alt="Elise"></div>
-</div>
-<div class="about-banner-2columns">
-<div class="columns-left"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/Ng_i_m_u.jpg" alt="Elise"></div>
-<div class="columns-right"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/B_o_Thanh.jpg" alt="Elise"></div>
-</div>
-<div class="container">
-<p><strong>ELISE</strong> đã được ghi nhận tại Giải thưởng Bán lẻ Châu Á 2022 (Retail Asia Awards 2022) với giải thưởng Nhà bán lẻ thời trang của năm (Apparel Retailer of the Year).&nbsp;Sự thích ứng và bền bỉ của Elise tạo nên sức mạnh và khác biệt, đã đến lúc sứ mệnh của Elise bước lên tầm cao mới - một sứ mệnh đầy kiêu hãnh của thương hiệu thời trang Việt Nam.</p>
-</div>
-<div class="about-banner-bottom"><img class="img-fullwidth" src="https://elise.vn/media/wysiwyg/About/cover-giai-thuong.jpg" alt="Elise"></div>
-</div>
-<div class="new-arrival-actions"><a class="button" href="https://www.youtube.com/watch?v=W0_1m8PQD5A">Xem thêm</a></div></div></div></section><section class="banner-register-member">
-</section><div class="widget block block-static-block">
-<ul class="footer-top-box">
-<li><img src="https://elise.vn/media/wysiwyg/footer/return.png" alt="">
-<p><strong>7 NGÀY ĐỔI SẢN PHẨM NGUYÊN GIÁ</strong></p>
-<a href="https://elise.vn/refunds-returns">Đổi trả sản phẩm trong 7 ngày</a></li>
-<li><img src="https://elise.vn/media/wysiwyg/footer/support.png" alt="">
-<p><strong>HOTLINE <a href="tel: 19003060">1900 3060</a></strong></p>
-8h00 - 17h00, T2 - T7 (Giờ hành chính)</li>
-<li><img src="https://elise.vn/media/wysiwyg/footer/store.png" alt="">
-<p><strong>HỆ THỐNG CỬA HÀNG</strong></p>
-<a href="https://elise.vn/maplist/">120 cửa hàng trên toàn hệ thống</a></li>
-<li><img src="https://elise.vn/media/wysiwyg/footer/shipping.png" alt="">
-<p><strong>VẬN CHUYỂN</strong></p>
-Đồng giá 30k toàn quốc</li>
-</ul></div>
-<section class="main-bottom-content">
-<div class="container">
-<div class="row custom-container">
-                    <div class="col-md-4">
-        <div class="item">
-<h4 class="title uppercase">Thông Tin</h4>
-<ul class="menu-list-item">
-<li><a>CÔNG TY TNHH THỜI TRANG ELISE&nbsp;<br>Tầng 8 - Số 2 Tôn Thất Tùng - Đống Đa - Hà Nội&nbsp;</a></li>
-<li><a href="tel:19003060">19003060</a></li>
-<li><a href="mailto:support@elise.vn&nbsp;">support@elise.vn</a></li>
-<li><a>MST: 0108393204</a></li>
-</ul>
-</div>                    </div>
-                                    <div class="col-md-4">
-        <div class="item">
-<h4 class="title uppercase">LIÊN HỆ</h4>
-<ul class="menu-list-item">
-<li class="item"><a href="/about-us">Giới thiệu</a></li>
-<li class="item"><a href="/blog">Tin tức</a></li>
-<li class="item"><a href="/maplist">Hệ thống cửa hàng</a></li>
-<li class="item"><a href="/help">Trợ giúp</a></li>
-</ul>
-</div>                    </div>
-                                    <div class="col-md-4">
-        <div class="item">
-<h4 class="title uppercase">Hỗ trợ khách hàng</h4>
-<ul class="menu-list-item">
-<li><a href="/faq">Hỏi đáp</a></li>
-<li><a href="/shopping-online">Hướng dẫn mua hàng</a></li>
-<li><a href="/customer/account/create/">Đăng ký tài khoản</a></li>
-<li><a href="/delivery">Chính sách giao hàng</a></li>
-<li><a href="/refunds-returns">Chính sách đổi trả hoàn tiền</a></li>
-</ul>
-</div>                    </div>
+    </section>
+    <div class="widget block block-static-block">
+        <ul class="footer-top-box">
+    <li><img src="https://elise.vn/media/wysiwyg/footer/return.png" alt="">
+    <p><strong>7 NGÀY ĐỔI SẢN PHẨM NGUYÊN GIÁ</strong></p>
+    <a href="https://elise.vn/refunds-returns">Đổi trả sản phẩm trong 7 ngày</a></li>
+    <li><img src="https://elise.vn/media/wysiwyg/footer/support.png" alt="">
+    <p><strong>HOTLINE <a href="tel: 19003060">1900 3060</a></strong></p>
+    8h00 - 17h00, T2 - T7 (Giờ hành chính)</li>
+    <li><img src="https://elise.vn/media/wysiwyg/footer/store.png" alt="">
+    <p><strong>HỆ THỐNG CỬA HÀNG</strong></p>
+    <a href="https://elise.vn/maplist/">120 cửa hàng trên toàn hệ thống</a></li>
+    <li><img src="https://elise.vn/media/wysiwyg/footer/shipping.png" alt="">
+    <p><strong>VẬN CHUYỂN</strong></p>
+    Đồng giá 30k toàn quốc</li>
+    </ul></div>
+    <footer class="footer footer1">
+        <div class="footer-container">
+            <div class="bottom-footer">
+                <div class="container">
+                    <!-- Static block: footer_socials -->
+                    <ul class="social-link text-uppercase">
+        <li><a class="footer-facebook" href="https://www.facebook.com/elisevietnam/" target="_blank" rel="noopener" data-facebook-id="483990274962872"><em class="fab fa-facebook-f">&nbsp;</em>FACEBOOK</a></li>
+        <li><a href="https://www.instagram.com/elise_fashion/" target="_blank" rel="noopener"><em class="fab fa-instagram">&nbsp;</em>INSTAGRAM</a></li>
+        <li><a href="https://www.youtube.com/channel/UCJQ_oyCa-XLriHtnotsAJnQ" target="_blank" rel="noopener"><em class="fab fa-youtube">&nbsp;</em>YOUTUBE</a></li>
+        <li><a href="https://www.tiktok.com/@eliseofficial.ec" target="_blank" rel="noopener"><img src="https://elise.vn/media/wysiwyg/home/tiktok.png" alt=""> TIKTOK</a></li>
+        <li><a href="http://zalo.me/1834764771593862920" target="_blank" rel="noopener"> <img src="https://elise.vn/media/wysiwyg/home/zalo.png" alt="">ZALO</a></li>
+        </ul>            <div class="copyright">
+                        <address>© Elise 2020. All rights reserved</address>
+                    </div>
+                    <div class="bct-register txt-center"><a href="http://online.gov.vn/Home/WebDetails/50703" target="_blank" rel="noopener"> <img src="https://elise.vn/media/wysiwyg/bocongthuong.png" alt=""> </a></div>        </div>
             </div>
-</div>
-</section>
-<div class="page-bottom"><div class="content">
-
-<script type="text/javascript">
-require([
-'jquery',
-'mage/mage'
-], function($, widgetAddToCart) {
-$(document).ajaxComplete(function(event, xhr) {
-if (xhr.responseText) {
-try {
-    eval("var json = " + xhr.responseText + " || {}");
-} catch (e) {
-    return;
-}
-}
-});
-});
-</script><script type="text/javascript">
-var ajaxCartConfig = {"updateCartUrl":"https:\/\/elise.vn\/ajaxcart\/index\/updatecart\/","redirectCartUrl":"https:\/\/elise.vn\/checkout\/cart\/","animationType":true};
-require([
-'jquery',
-'MGS_AjaxCart/js/config'
-], function($, mgsConfig) {
-mgsConfig.setOptions(ajaxCartConfig);
-});
-</script>
-<script type="text/javascript">
-require(['jquery','mgs/lazyload'],function($){
-$(document).ready(function() {
-$("img.lazy").unveil(200, function(){
-var self = $(this);
-setTimeout(function(){
-    self.removeClass('lazy');
-}, 0);
-});
-});
-
-});
-</script>
-<script type="text/javascript">
-require([
-"jquery"
-], function(jQuery){
-(function($) {
-$(document).ready(function () {
-if($('.pin__type').length){
-    $('.lookbook-container .pin__type').hover(function(){
-        $(this).parent().find('.pin__image').toggleClass('pm-mask');
-    });
+        </div>
+        
+        </footer>
+        <a href="" class="scroll-to-top" style="bottom: 25px;"><i class="fa fa-arrow-up"></i></a>
+        <script type="text/javascript">
+            require([
+                'jquery'
+            ], function(jQuery){
+                (function($) {
+                    $(window).scroll(function(){
+                        if ($(this).scrollTop() > 1) {
+                            $('.scroll-to-top').css({bottom:"25px"});
+                        } else {
+                            $('.scroll-to-top').css({bottom:"-45px"});
+                        }
+                    });
     
-    $('.lookbook-container .pin__type').click(function(){
-        $('.lookbook-container .pin__type').removeClass('pin__opened');
-        $(this).toggleClass('pin__opened');
-    });
-    
-    $('.lookbook-image').click(function(){
-        $('.lookbook-container .pin__type').removeClass('pin__opened');
-    });
-}
-});
-})(jQuery);
-});
-</script></div></div><footer class="footer footer1">
-<div class="footer-container">
-<div class="bottom-footer">
-<div class="container">
-<!-- Static block: footer_socials -->
-<ul class="social-link text-uppercase">
-<li><a class="footer-facebook" href="https://www.facebook.com/elisevietnam/" target="_blank" rel="noopener" data-facebook-id="483990274962872"><em class="fab fa-facebook-f">&nbsp;</em>FACEBOOK</a></li>
-<li><a href="https://www.instagram.com/elise_fashion/" target="_blank" rel="noopener"><em class="fab fa-instagram">&nbsp;</em>INSTAGRAM</a></li>
-<li><a href="https://www.youtube.com/channel/UCJQ_oyCa-XLriHtnotsAJnQ" target="_blank" rel="noopener"><em class="fab fa-youtube">&nbsp;</em>YOUTUBE</a></li>
-<li><a href="https://www.tiktok.com/@eliseofficial.ec" target="_blank" rel="noopener"><img src="https://elise.vn/media/wysiwyg/home/tiktok.png" alt=""> TIKTOK</a></li>
-<li><a href="http://zalo.me/1834764771593862920" target="_blank" rel="noopener"> <img src="https://elise.vn/media/wysiwyg/home/zalo.png" alt="">ZALO</a></li>
-</ul>            <div class="copyright">
-<address>© Elise 2020. All rights reserved</address>
-</div>
-<div class="bct-register txt-center"><a href="http://online.gov.vn/Home/WebDetails/50703" target="_blank" rel="noopener"> <img src="https://elise.vn/media/wysiwyg/bocongthuong.png" alt=""> </a></div>        </div>
-</div>
-</div>
-
-</footer>
-
-<a href="" class="scroll-to-top" style="bottom: 25px;"><i class="fa fa-arrow-up"></i></a>
-<script type="text/javascript">
-require([
-'jquery'
-], function(jQuery){
-(function($) {
-$(window).scroll(function(){
-    if ($(this).scrollTop() > 1) {
-        $('.scroll-to-top').css({bottom:"25px"});
-    } else {
-        $('.scroll-to-top').css({bottom:"-45px"});
-    }
-});
-
-$('.scroll-to-top').click(function(){
-    $('html, body').animate({scrollTop: '0px'}, 800);
-    return false;
-});
-})(jQuery);
-});
-</script>
-
-
-
-
-<div class="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready" id="mgs-ajax-loading">
-<div class="mfp-bg mfp-ready"></div>
-<div class="preloader"></div>
-</div>
-
-<script type="text/javascript">
-require([ 'jquery', 'mgs/owlcarousel' ], function ($) {
-$('.list_gallery').owlCarousel({
-items: 1,
-autoplay: false,
-nav: false,
-dots: true,
-rtl: RTL,
-touchDrag: false,
-mouseDrag: false,
-loop:false,
-navText: ["<span></span>","<span></span>"],
-});
-});
-
-</script>
-<script type="text/javascript">
-function toggleEl(el, elId){
-require([
-'jquery',
-], function(jQuery){
-(function($) {
-$('#'+elId).toggleClass('active').slideToggle();
-$(el).toggleClass('active');
-})(jQuery);
-});
-}
-</script>
-<script type="text/javascript">
-requirejs(['jquery', 'mgs_quickview'],
-function ($, quickview) {
-$(document).ready(function () {
-    $('.mgs-quickview').bind('click', function () {
-        var prodUrl = $(this).attr('data-quickview-url');
-        if (prodUrl.length) {
-            quickview.displayContent(prodUrl);
-        }
-    });
-});
-});
-</script>
-<script type="text/javascript">
-require(['jquery', 'iframeResizer' ],
-function ($) {
-$(function () {
-var iframe = $('iframe.embedded-iframe');
-if (iframe.length) {
-    iframe.on('load', function(){
-        var headerHeight = $('header').outerHeight(),
-            windowHeight = $(window).innerHeight(),
-            availableHeight =  windowHeight - headerHeight - 70,
-            isOldIE = (navigator.userAgent.indexOf("MSIE") !== -1);
-
-        iFrameResize({
-            log: false,
-            minHeight: availableHeight,
-            resizeFrom: 'parent',
-            scrolling: true,
-            inPageLinks: true,
-            autoResize: true,
-            enablePublicMethods: true,
-            heightCalculationMethod: isOldIE ? 'max' : 'bodyScroll',
-            initCallback: function(iframe) {
-                iframe.style.height = availableHeight + 'px';
-            },
-            resizedCallback: function(messageData) {
-                setTimeout(function() {
-                    messageData.iframe.style.visibility = 'visible';
-                }, 300);
-            },
-            messageCallback: function(messageData) {
-                if (history.pushState && messageData.message.hasOwnProperty('trackNo')) {
-                    var newUrl = window.location.protocol + '//' + window.location.host + window.location.pathname.replace(/\/$/, '') + '/' + messageData.message.trackNo;
-                    window.history.pushState({path:newUrl}, '', newUrl);
-                }
-            }
-        });
-    });
-}
-});
-});
-</script>
-
-<div class="switcher language switcher-language item-pane language" data-ui-id="language-switcher" id="main-language">
-<ul class="list-language list-style-type uppercase">
-<li class="item">
-<span class="view-vn">
-    <span>Việt Nam</span>
-</span>
-</li>
-                                <li class="item">
-        <a href="https://elise.vn/stores/store/redirect/___store/en/___from_store/vn/uenc/aHR0cHM6Ly9lbGlzZS52bi9hYm91dC11cz9fX19zdG9yZT1lbg%2C%2C/">
-            English                        </a>
-    </li>
-                                                </ul>
-</div>
-</div></main>				
-
-<script type="text/javascript">
-require([
-'jquery'
-], function(jQuery){
-(function($) {
-    jQuery(window).load(function(){
-        jQuery(".page.messages").delay(8000).fadeOut('slow');
-    });
-})(jQuery);
-});
-</script>
-<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon="{&quot;rayId&quot;:&quot;794bb8e4cd9887f5&quot;,&quot;version&quot;:&quot;2022.11.3&quot;,&quot;r&quot;:1,&quot;token&quot;:&quot;087921b715194af2b2b1aa9c21de7b9c&quot;,&quot;si&quot;:100}" crossorigin="anonymous"></script>
-
-
-<div id="mColorPickerBg" style="display: none; background: black; opacity: 0.01; position: absolute; inset: 0px; z-index: 999999;"></div><div id="mColorPicker" data-mcolorpicker="true" style="position: absolute; border: 1px solid rgb(204, 204, 204); color: rgb(255, 255, 255); width: 182px; height: 156px; font-size: 12px; font-family: times; display: none;"><div id="mColorPickerWrapper" style="position: relative;"><div id="mColorPickerImg" class="mColor" style="height: 136px; width: 180px; border: 0px; cursor: crosshair; background-image: url(&quot;images/picker.png&quot;);"></div><div id="mColorPickerSwatches"><div id="cell0" class="mPastColor" style="background-color: rgb(255, 255, 255); height: 18px; width: 18px; border: 1px solid rgb(0, 0, 0); float: left;">&nbsp;</div><div id="cell1" class="mPastColor mNoLeftBorder" style="background-color: rgb(255, 255, 0); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell2" class="mPastColor mNoLeftBorder" style="background-color: rgb(0, 255, 0); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell3" class="mPastColor mNoLeftBorder" style="background-color: rgb(0, 255, 255); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell4" class="mPastColor mNoLeftBorder" style="background-color: rgb(0, 0, 255); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell5" class="mPastColor mNoLeftBorder" style="background-color: rgb(255, 0, 255); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell6" class="mPastColor mNoLeftBorder" style="background-color: rgb(255, 0, 0); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell7" class="mPastColor mNoLeftBorder" style="background-color: rgb(76, 43, 17); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell8" class="mPastColor mNoLeftBorder" style="background-color: rgb(59, 59, 59); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div id="cell9" class="mPastColor mNoLeftBorder" style="background-color: rgb(0, 0, 0); height: 18px; width: 18px; border-width: 1px 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: initial; border-top-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-color: initial; border-image: initial; float: left;">&nbsp;</div><div class="mClear" style="clear: both;"></div></div></div></div><div id="mColorPickerTest" style="display: none;"></div><audio id="audioRemote" hidden="hidden" autoplay="true"></audio>
-            <video id="remoteView" hidden="hidden" autoplay="true"></video><div id="oc-widget" class="oc-widget" style="max-height: 900px;"><iframe id="oc-iframe-background-123456789" class="oc-radial-background" style="opacity: 0;"></iframe><iframe id="oc-iframe-123456789" allowfullscreen="" class="widget-iframe" scrolling="no" src="https://widget.oncustomer.asia/livechat/?widgetId=oc-widget&amp;appToken=5d06672fdd58a50833863fbefc6df2a2&amp;lang=vi&amp;ocdata=eyJ0aXRsZSI6IkFib3V0IFVzIiwicmVmZXJyZXIiOiJodHRwczovL2VsaXNlLnZuLz9nY2xpZD1DandLQ0FpQWhxQ2RCaEIwRWl3QUg4TV9Hc2tZT0pPNC0wX3lSaGFiWUlLb09hd3E0Q0VLRi1iemViOF9ZTU8zNGxBaEtMT3Vhd3d1UVJvQzFpUVFBdkRfQndFJmZiY2xpZD1Jd0FSMXZrWWF5UlNZekdDaGhONVZ3MU9RWVlVZGpjQ0hieUk0SVNBOWx5NlJwRFBqV0k3NGxSRFZTYi1NIiwidXJsIjoiaHR0cHM6Ly9lbGlzZS52bi9hYm91dC11cyIsInNlYXJjaCI6IiJ9&amp;ocvisitordata=e30=" style="border-width: 0px; width: 100%; height: 100%;"></iframe></div><iframe id="oc-modal-frame" src="https://widget.oncustomer.asia/modal.html" frameborder="0"></iframe><div class="modals-wrapper"><!--
-/**
-* Copyright © Magento, Inc. All rights reserved.
-* See COPYING.txt for license details.
-*/
--->
-
-<aside role="dialog" class="modal-popup popup-authentication
-modal-slide
-_inner-scroll" aria-describedby="modal-content-11" data-role="modal" data-type="popup" tabindex="0">
-<div data-role="focusable-start" tabindex="0"></div>
-<div class="modal-inner-wrap" data-role="focusable-scope">
-<header class="modal-header">
-
-<button class="action-close" data-role="closeBtn" type="button">
-<span>Đóng</span>
-</button>
-</header>
-<div id="modal-content-11" class="modal-content" data-role="content"><div class="block-authentication" data-bind="afterRender: setModalElement, blockLoader: isLoading" style="">
-<div class="block block-new-customer" data-bind="attr: {'data-label': $t('or')}" data-label="hoặc">
-<div class="block-title">
-<strong id="block-new-customer-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout as a new customer'">Thanh toán như một khách hàng mới</strong>
-</div>
-<div class="block-content" aria-labelledby="block-new-customer-heading">
-<p data-bind="i18n: 'Creating an account has many benefits:'">Tạo một tài khoản có nhiều lợi ích:</p>
-<ul>
-<li data-bind="i18n: 'See order and shipping status'">Xem tình trạng đặt hàng và vận chuyển</li>
-<li data-bind="i18n: 'Track order history'">Theo dõi lịch sử đặt hàng</li>
-<li data-bind="i18n: 'Check out faster'">Thanh toán nhanh hơn</li>
-</ul>
-<div class="actions-toolbar">
-<div class="primary">
-    <a class="action action-register primary" data-bind="attr: {href: registerUrl}" href="https://elise.vn/customer/account/create/">
-        <span data-bind="i18n: 'Create an Account'">Tạo tài khoản</span>
-    </a>
-</div>
-</div>
-</div>
-</div>
-
-<div class="block block-customer-login" data-bind="attr: {'data-label': $t('or')}" data-label="hoặc">
-<div class="block-title">
-<strong id="block-customer-login-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout using your account'">Thanh toán sử dụng tài khoản của bạn</strong>
-</div>
-<!-- ko foreach: getRegion('messages') -->
-<!-- ko template: getTemplate() -->
-<div data-role="checkout-messages" class="messages" data-bind="visible: isVisible(), click: removeAll">
-<!-- ko foreach: messageContainer.getErrorMessages() --><!--/ko-->
-<!-- ko foreach: messageContainer.getSuccessMessages() --><!--/ko-->
-</div>
-<!-- /ko -->
-<!--/ko-->
-<!-- ko foreach: getRegion('before') --><!-- /ko -->
-<div class="block-content" aria-labelledby="block-customer-login-heading">
-<form class="form form-login" method="post" data-bind="event: {submit: login }" id="login-form">
-<div class="fieldset login" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}" data-hasrequired="* Đây là trường bắt buộc.">
-    <div class="field email required">
-        <label class="label" for="customer-email"><span data-bind="i18n: 'Email Address'">Địa chỉ Email</span></label>
-        <div class="control">
-            <input name="username" id="customer-email" type="email" class="input-text" data-mage-init="{&quot;mage/trim-input&quot;:{}}" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true, 'validate-email':true}" autocomplete="off">
+                    $('.scroll-to-top').click(function(){
+                        $('html, body').animate({scrollTop: '0px'}, 800);
+                        return false;
+                    });
+                })(jQuery);
+            });
+        </script>
+        <div class="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready" id="mgs-ajax-loading">
+            <div class="mfp-bg mfp-ready"></div>
+            <div class="preloader"></div>
         </div>
-    </div>
-    <div class="field password required">
-        <label for="pass" class="label"><span data-bind="i18n: 'Password'">Mật khẩu</span></label>
-        <div class="control">
-            <input name="password" type="password" class="input-text" id="pass" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true}" autocomplete="off">
+        <script type="text/javascript">
+            require([ 'jquery', 'mgs/owlcarousel' ], function ($) {
+                $('.list_gallery').owlCarousel({
+                    items: 1,
+                    autoplay: false,
+                    nav: false,
+                    dots: true,
+                    rtl: RTL,
+                    touchDrag: false,
+                    mouseDrag: false,
+                    loop:false,
+                    navText: ["<span></span>","<span></span>"],
+                });
+            });
+            
+        </script>
+        <div id="mColorPickerTest" style="display: none;">
         </div>
-    </div>
-    <!-- ko foreach: getRegion('additional-login-form-fields') -->
-    <!-- ko template: getTemplate() -->
-<input name="captcha_form_id" type="hidden" data-bind="value: formId,  attr: {'data-scope': dataScope}" value="user_login" data-scope="">
-<!-- ko if: (isRequired() && getIsVisible())--><!-- /ko -->
-<!-- /ko -->
-    <!-- /ko -->
-    <div class="actions-toolbar">
-        <input name="context" type="hidden" value="checkout">
-        <div class="primary">
-            <button type="submit" class="action action-login secondary" name="send" id="send2">
-                <span data-bind="i18n: 'Log In'">Đăng nhập</span>
-            </button>
+        <audio id="audioRemote" hidden="hidden" autoplay="true">     
+        </audio>
+        <video id="remoteView" hidden="hidden" autoplay="true">          
+        </video>
+        <div id="oc-widget" class="oc-widget" style="max-height: 900px;"><iframe id="oc-iframe-background-123456789" class="oc-radial-background" style="opacity: 0;"></iframe><iframe id="oc-iframe-123456789" allowfullscreen="" class="widget-iframe" scrolling="no" src="https://widget.oncustomer.asia/livechat/?widgetId=oc-widget&amp;appToken=5d06672fdd58a50833863fbefc6df2a2&amp;lang=vi&amp;ocdata=eyJ0aXRsZSI6IkVMSVNFIC0gxJDhu4pOSCBIxq/hu5pORyBQSE9ORyBDw4FDSCBUSOG7nEkgVFJBTkciLCJyZWZlcnJlciI6Imh0dHBzOi8vZWxpc2Uudm4vIiwidXJsIjoiaHR0cHM6Ly9lbGlzZS52bi8/Z2NsaWQ9Q2p3S0NBaUFocUNkQmhCMEVpd0FIOE1fR3NrWU9KTzQtMF95UmhhYllJS29PYXdxNENFS0YtYnplYjhfWU1PMzRsQWhLTE91YXd3dVFSb0MxaVFRQXZEX0J3RSZmYmNsaWQ9SXdBUjF2a1lheVJTWXpHQ2hoTjVWdzFPUVlZVWRqY0NIYnlJNElTQTlseTZScERQaldJNzRsUkRWU2ItTSIsInNlYXJjaCI6Ij9nY2xpZD1DandLQ0FpQWhxQ2RCaEIwRWl3QUg4TV9Hc2tZT0pPNC0wX3lSaGFiWUlLb09hd3E0Q0VLRi1iemViOF9ZTU8zNGxBaEtMT3Vhd3d1UVJvQzFpUVFBdkRfQndFJmZiY2xpZD1Jd0FSMXZrWWF5UlNZekdDaGhONVZ3MU9RWVlVZGpjQ0hieUk0SVNBOWx5NlJwRFBqV0k3NGxSRFZTYi1NIn0=&amp;ocvisitordata=e30=" style="border-width: 0px; width: 100%; height: 100%;"></iframe>
         </div>
-        <div class="secondary">
-            <a class="action" data-bind="attr: {href: forgotPasswordUrl}" href="https://elise.vn/customer/account/forgotpassword/">
-                <span data-bind="i18n: 'Forgot Your Password?'">Quên mật khẩu?</span>
-            </a>
-        </div>
-    </div>
-</div>
-</form>
-</div>
-</div>
-</div></div>
+        <iframe id="oc-modal-frame" src="https://widget.oncustomer.asia/modal.html" frameborder="0">
 
-</div>
-<div data-role="focusable-end" tabindex="0"></div>
-</aside></div></body>>
+        </iframe>
+        <div class="modals-wrapper"><!--
+            /**
+             * Copyright © Magento, Inc. All rights reserved.
+             * See COPYING.txt for license details.
+             */
+            -->
+            
+            <aside role="dialog" class="modal-popup popup-authentication
+                           modal-slide
+                           _inner-scroll" aria-describedby="modal-content-11" data-role="modal" data-type="popup" tabindex="0">
+                <div data-role="focusable-start" tabindex="0"></div>
+                <div class="modal-inner-wrap" data-role="focusable-scope">
+                    <header class="modal-header">
+                        
+                        <button class="action-close" data-role="closeBtn" type="button">
+                            <span>Đóng</span>
+                        </button>
+                    </header>
+                    <div id="modal-content-11" class="modal-content" data-role="content"><div class="block-authentication" data-bind="afterRender: setModalElement, blockLoader: isLoading" style="">
+                <div class="block block-new-customer" data-bind="attr: {'data-label': $t('or')}" data-label="hoặc">
+                    <div class="block-title">
+                        <strong id="block-new-customer-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout as a new customer'">Thanh toán như một khách hàng mới</strong>
+                    </div>
+                    <div class="block-content" aria-labelledby="block-new-customer-heading">
+                        <p data-bind="i18n: 'Creating an account has many benefits:'">Tạo một tài khoản có nhiều lợi ích:</p>
+                        <ul>
+                            <li data-bind="i18n: 'See order and shipping status'">Xem tình trạng đặt hàng và vận chuyển</li>
+                            <li data-bind="i18n: 'Track order history'">Theo dõi lịch sử đặt hàng</li>
+                            <li data-bind="i18n: 'Check out faster'">Thanh toán nhanh hơn</li>
+                        </ul>
+                        <div class="actions-toolbar">
+                            <div class="primary">
+                                <a class="action action-register primary" data-bind="attr: {href: registerUrl}" href="https://elise.vn/customer/account/create/">
+                                    <span data-bind="i18n: 'Create an Account'">Tạo tài khoản</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="block block-customer-login" data-bind="attr: {'data-label': $t('or')}" data-label="hoặc">
+                    <div class="block-title">
+                        <strong id="block-customer-login-heading" role="heading" aria-level="2" data-bind="i18n: 'Checkout using your account'">Thanh toán sử dụng tài khoản của bạn</strong>
+                    </div>
+                    <!-- ko foreach: getRegion('messages') -->
+                    <!-- ko template: getTemplate() -->
+            <div data-role="checkout-messages" class="messages" data-bind="visible: isVisible(), click: removeAll">
+                <!-- ko foreach: messageContainer.getErrorMessages() --><!--/ko-->
+                <!-- ko foreach: messageContainer.getSuccessMessages() --><!--/ko-->
+            </div>
+            <!-- /ko -->
+                    <!--/ko-->
+                    <!-- ko foreach: getRegion('before') --><!-- /ko -->
+                    <div class="block-content" aria-labelledby="block-customer-login-heading">
+                        <form class="form form-login" method="post" data-bind="event: {submit: login }" id="login-form">
+                            <div class="fieldset login" data-bind="attr: {'data-hasrequired': $t('* Required Fields')}" data-hasrequired="* Đây là trường bắt buộc.">
+                                <div class="field email required">
+                                    <label class="label" for="customer-email"><span data-bind="i18n: 'Email Address'">Địa chỉ Email</span></label>
+                                    <div class="control">
+                                        <input name="username" id="customer-email" type="email" class="input-text" data-mage-init="{&quot;mage/trim-input&quot;:{}}" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true, 'validate-email':true}" autocomplete="off">
+                                    </div>
+                                </div>
+                                <div class="field password required">
+                                    <label for="pass" class="label"><span data-bind="i18n: 'Password'">Mật khẩu</span></label>
+                                    <div class="control">
+                                        <input name="password" type="password" class="input-text" id="pass" data-bind="attr: {autocomplete: autocomplete}" data-validate="{required:true}" autocomplete="off">
+                                    </div>
+                                </div>
+                                <!-- ko foreach: getRegion('additional-login-form-fields') -->
+                                <!-- ko template: getTemplate() -->
+            <input name="captcha_form_id" type="hidden" data-bind="value: formId,  attr: {'data-scope': dataScope}" value="user_login" data-scope="">
+            <!-- ko if: (isRequired() && getIsVisible())--><!-- /ko -->
+            <!-- /ko -->
+                                <!-- /ko -->
+                                <div class="actions-toolbar">
+                                    <input name="context" type="hidden" value="checkout">
+                                    <div class="primary">
+                                        <button type="submit" class="action action-login secondary" name="send" id="send2">
+                                            <span data-bind="i18n: 'Log In'">Đăng nhập</span>
+                                        </button>
+                                    </div>
+                                    <div class="secondary">
+                                        <a class="action" data-bind="attr: {href: forgotPasswordUrl}" href="https://elise.vn/customer/account/forgotpassword/">
+                                            <span data-bind="i18n: 'Forgot Your Password?'">Quên mật khẩu?</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div></div>
+                    
+                </div>
+                <div data-role="focusable-end" tabindex="0"></div>
+            </aside></div>
+            <div style="position: absolute; top: 0px; display: block !important;"></div>
+            <iframe id="__JSBridgeIframe_1.0__" title="jsbridge___JSBridgeIframe_1.0__" style="display: none;"></iframe>
+            <iframe id="__JSBridgeIframe_SetResult_1.0__" title="jsbridge___JSBridgeIframe_SetResult_1.0__" style="display: none;"></iframe>
+            <iframe id="__JSBridgeIframe__" title="jsbridge___JSBridgeIframe__" style="display: none;"></iframe>
+            <iframe id="__JSBridgeIframe_SetResult__" title="jsbridge___JSBridgeIframe_SetResult__" style="display: none;"></iframe>
 
-
-    </body>
-</html>
+</body>
+    </html>
